@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Spanish Type Practice</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Spanish Typing Practice</h1>
+
+        <div id="mode-selector">
+            <label for="mode">Mode:</label>
+            <select id="mode">
+                <option value="Word">Words</option>
+                <option value="Sentence">Sentences</option>
+            </select>
+        </div>
+
+        <div id="word-display"></div>
+
+        <input type="text" id="input-box" placeholder="Start typing..." autofocus />
+        <div id="stats">
+            <p>WPM: <span id="wpm">0</span></p>
+            <p>Accuracy: <span id="accuracy">100%</span></p>
+        </div>
+    </div>
+
+<script src="../source/components/TypingBox.js"></script>
+<script src="../source/components/StatsDisplay.js"></script>
+<script src="../source/main.js"></script>
+</body>
+</html>

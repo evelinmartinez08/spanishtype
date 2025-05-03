@@ -1,0 +1,23 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #4a4242;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top:50px;
+}
+
+#word-display {
+    font-size: 24px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+#input-box {
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+}
